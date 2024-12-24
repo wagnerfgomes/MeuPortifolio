@@ -1,0 +1,5 @@
+.RedesSocias{
+    display: flex;
+    padding: .4rem;
+    background-color: var(--violet--700);
+}

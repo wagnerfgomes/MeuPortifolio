@@ -1,0 +1,12 @@
+.Tecnologias{
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    padding: .4rem;
+    list-style: none;
+}
+
+
+.Tecnologias__texto{
+    color: var(--violet--900);
+}
