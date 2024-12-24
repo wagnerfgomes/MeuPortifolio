@@ -1,0 +1,337 @@
+/* Link do video de snippets: https://youtu.be/3NHEYUdBguY?si=0wovfMhbFNsR57zA&t=302 */
+/*--------------CSS RESET--------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    overflow-x: hidden;
+    background-image: url('assets/Fundo/background.png');
+    background-color: var(--woodsmoke--950);
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+}
+
+:root {
+    font-size: 62.5%;
+    --violet--50: #FBF3FF;
+    --violet--100: #F5E3FF;
+    --violet--200: #EDCDFF;
+    --violet--300: #DFA5FF;
+    --violet--400: #CC6CFF;
+    --violet--500: #B935FF;
+    --violet--600: #A80FFF;
+    --violet--700: #9F06FF;
+    --violet--800: #7D06C3;
+    --violet--900: #67079C;
+    --violet--950: #460076;
+    --yellow--50: #FEFFE4;
+    --yellow--100: #FBFFC4;
+    --yellow--200: #F5FF90;
+    --yellow--300: #E9FF50;
+    --yellow--400: #D7FF05;
+    --yellow--500: #BBE600;
+    --yellow--600: #91B800;
+    --yellow--700: #6D8B00;
+    --yellow--800: #566D07;
+    --yellow--900: #495C0B;
+    --yellow--950: #253400;
+    --woodsmoke--50: #F3F8F8;
+    --woodsmoke--100: #E0EBED;
+    --woodsmoke--200: #C4DADD;
+    --woodsmoke--300: #9BBEC5;
+    --woodsmoke--400: #6A9BA6;
+    --woodsmoke--500: #4F7F8B;
+    --woodsmoke--600: #446A76;
+    --woodsmoke--700: #3C5862;
+    --woodsmoke--800: #374B53;
+    --woodsmoke--900: #314148;
+    --woodsmoke--950: #0A0E10;
+
+    --font-title: 'Poppins', sans-serif;
+    --font-body: 'Raleway', sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    height: 100%;
+    font-size: 1.6rem;
+    --paragraph-space: 2rem;
+    --title-space: 1rem;
+    font-weight: 300;
+}
+
+.space-text-above{
+    margin-top: var(--paragraph-space);
+}
+
+.space-text-below {
+    margin-bottom: var(--paragraph-space);
+}
+
+p.bold,
+span.bold,
+.body-1.bold,
+.body-2.bold,
+p .bold,
+span .bold,
+.body-1 .bold,
+.body-2 .bold,
+p strong,
+span strong,
+.body-1 strong,
+.body-2 strong,
+p b,
+span b,
+.body-1 b,
+.body-2 b {
+    font-weight: 700;
+}
+
+
+h1,
+.title-1,
+h2,
+.title-2,
+h3,
+.title-3,
+h4,
+.title-4,
+h5,
+.title-5,
+h6,
+.title-6 {
+    font-family: var(--font-title);
+    font-style: normal;
+    text-transform: uppercase;
+    max-width: 76.8rem;
+}
+
+p,
+.max-w-text {
+    max-width: 76.8rem;
+}
+
+
+h1,
+.title-1 {
+    font-size: 3.8rem;
+    line-height: 4.0rem;
+    font-weight: 300;
+    letter-spacing: -0.007em;
+}
+
+h2,
+.title-2 {
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+    font-weight: 300;
+    letter-spacing: -0.005em;
+}
+
+h3,
+.title-3 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+    font-weight: 400;
+    letter-spacing: -0.003em;
+}
+
+h4,
+.title-4 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    font-weight: 500;
+    letter-spacing: -0.001em;
+}
+
+h5,
+.title-5 {
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+    font-weight: 600;
+    letter-spacing: 0em;
+}
+
+h6,
+.title-6 {
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 0.001em;
+}
+
+p,
+button,
+.body-1 {
+    font-family: var(--font-body);
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    font-weight: 400;
+    letter-spacing: 0.001em;
+}
+.body-1-bold {
+    font-family: var(--font-body);
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    font-weight: 700;
+    letter-spacing: 0.001em;
+}
+
+label,
+figcaption,
+input,
+.body-2 {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.tooltip {
+    font-family: var(--font-body);
+    font-size: 1.0rem;
+    line-height: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.119em;
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.6rem;
+    }
+
+    h1,
+    .title-1 {
+        font-size: 7.6rem;
+        line-height: 8.4rem;
+    }
+
+    h2,
+    .title-2 {
+        font-size: 6.2rem;
+        line-height: 7.6rem;
+    }
+
+    h3,
+    .title-3 {
+        font-size: 4.8rem;
+        line-height: 6.4rem;
+    }
+
+    h4,
+    .title-4 {
+        font-size: 4.0rem;
+        line-height: 6.0rem;
+    }
+
+    h5,
+    .title-5 {
+        font-size: 3.2rem;
+        line-height: 5.2rem;
+    }
+
+    h6,
+    .title-6 {
+        font-size: 2.6rem;
+        line-height: 4.8rem;
+    }
+
+    p,
+    button,
+    .body-1 {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    label,
+    figcaption,
+    input,
+    .body-2 {
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+    }
+
+    .tooltip {
+        font-size: 1.0rem;
+        line-height: 1.6rem;
+    }
+
+
+}
+
+
+@media (min-width: 1400px) {
+    body {
+        font-size: 1.6rem;
+    }
+
+    h1,
+    .title-1 {
+        font-size: 12.0rem;
+        line-height: 13.2rem;
+    }
+
+    h2,
+    .title-2 {
+        font-size: 9.0rem;
+        line-height: 10.8rem;
+    }
+
+    h3,
+    .title-3 {
+        font-size: 6.8rem;
+        line-height: 9.2rem;
+    }
+
+    h4,
+    .title-4 {
+        font-size: 5.0rem;
+        line-height: 7.2rem;
+    }
+
+    h5,
+    .title-5 {
+        font-size: 3.8rem;
+        line-height: 6.0rem;
+    }
+
+    h6,
+    .title-6 {
+        font-size: 2.8rem;
+        line-height: 4.8rem;
+    }
+
+    p,
+    button,
+    .body-1 {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+    }
+
+    label,
+    figcaption,
+    input,
+    .body-2 {
+        font-size: 1.2rem;
+        line-height: 2.0rem;
+    }
+
+    .tooltip {
+        font-size: 1.0rem;
+        line-height: 1.6rem;
+    }
+
+
+}

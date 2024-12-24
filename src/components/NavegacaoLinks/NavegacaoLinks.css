@@ -1,0 +1,40 @@
+.links-navegacao{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.link-navegacao {
+    display: inline-flex;
+    text-decoration: none;
+    color: var(--yellow--50);
+}
+
+.link-navegacao:hover{
+    color: var(--yellow--400);
+}
+
+.logo-marca{
+    height: 2.4rem;
+}
+
+@media (min-width: 1024px) {
+
+    .navegacao{
+        padding: 2.4rem 6.4rem;
+    }
+
+    .logo-marca{
+        height: 3.2rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .navegacao{
+        padding: 2.4rem 10.4rem;
+    }
+
+    .logo-marca{
+        height: 4.8rem;
+    }
+}

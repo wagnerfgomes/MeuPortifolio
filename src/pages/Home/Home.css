@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.Home__main {
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem 1.6rem;
+    gap: 1.6rem;
+}
+
+.Home__main__logo {
+    z-index: -1;
+    position: absolute;
+    right: 1rem;
+    top: 15.4rem;
+    height: 10rem;
+}
+
+.Home__main__heloworld {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 2.2rem;
+    color: var(--yellow--50);
+}
+
+.Home__main__titulo {
+    color: var(--violet--700);
+}
+
+.Home__main__texto {
+    color: var(--yellow--50);
+    width: 80%;
+}
+
+.Home__main__texto strong {
+    color: var(--violet--700);
+    font-style: italic;
+}
+
+.Home__main__tecnologias {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    padding: .4rem;
+}
+
+.Home__main__social {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.Home__main__social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

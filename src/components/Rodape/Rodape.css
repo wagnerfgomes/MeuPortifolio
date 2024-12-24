@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.2rem 0;
+}
+
+footer p{
+    color: var(--yellow--50);
+}
+
+footer strong{
+    color: var(--violet--700);
+    font-weight: 700;
+}
