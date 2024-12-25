@@ -1,5 +1,9 @@
-.RedesSocias{
+.social-media{
     display: flex;
     padding: .4rem;
     background-color: var(--violet--700);
 }
+.social-media:hover{
+    background-color: var(--yellow--400);
+}
+

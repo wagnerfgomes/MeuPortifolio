@@ -3,9 +3,9 @@ import 'styles/standard.css'
 
 const Tecnologias = ({icone, children}) =>{
     return(
-        <li className='Tecnologias'>
+        <li className='technology'>
             {icone}
-            <p className="Tecnologias__texto">{children}</p>
+            <p className="technology__texto">{children}</p>
         </li>
     )
 }

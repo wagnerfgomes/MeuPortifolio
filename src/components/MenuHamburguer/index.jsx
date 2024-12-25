@@ -14,11 +14,11 @@ const MenuHamburguer = () => {
 
     return (
         <div>
-            <button className="butao-menu" onClick={() => {setMostrarMenu(!mostrarMenu)}}>
+            <button className="button-menu" onClick={() => {setMostrarMenu(!mostrarMenu)}}>
                 {mostrarMenu ? <MdClose {...atributosIcone} /> : <MdMenu {...atributosIcone} />}
             </button>
-            <div className={`${mostrarMenu ? 'mostrar-menu' : 'esconder-menu'} menu`}>
-                <div className="menu__cabecalho">
+            <div className={`${mostrarMenu ? 'show-menu' : 'hide-menu'} menu`}>
+                <div className="menu__header">
                     <h4>Menu</h4>
                 </div>
                 <div className={`links-menu-hambuger`}>

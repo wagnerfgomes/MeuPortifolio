@@ -3,18 +3,18 @@ import './Butao.css';
 import 'styles/standard.css';
 
 
-const Butao = ({ children, to, acao, icone, invertido }) => {
+const Butao = ({ children, to, action, icon, inverted }) => {
     return (
-        <button onClick={acao} className="butao ">
-            <Link className="link-butao body-1-bold" to={to}>
-                {invertido ? (
+        <button onClick={action} className="button">
+            <Link className="link-button body-1-bold" to={to}>
+                {inverted ? (
                     <>
                         {children}
-                        {icone}
+                        {icon}
                     </>
                 ) : (
                     <>
-                        {icone}
+                        {icon}
                         {children}
                     </>
                 )}

@@ -1,4 +1,4 @@
-.Tecnologias{
+.technology{
     display: flex;
     gap: .8rem;
     align-items: center;
@@ -7,6 +7,6 @@
 }
 
 
-.Tecnologias__texto{
+.technology__texto{
     color: var(--violet--900);
 }

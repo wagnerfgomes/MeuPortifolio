@@ -9,7 +9,10 @@ footer p{
     color: var(--yellow--50);
 }
 
-footer strong{
+footer p strong{
     color: var(--violet--700);
     font-weight: 700;
+}
+footer p strong:hover{
+    color: var(--yellow--400);
 }

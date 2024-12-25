@@ -2,7 +2,7 @@ h4 {
     color: var(--violet--700);
 }
 
-.butao-menu {
+.button-menu {
     position: relative;
     z-index: 2;
     cursor: pointer;
@@ -14,15 +14,15 @@ h4 {
     padding: .8rem;
 }
 
-.butao-menu:hover {
+.button-menu:hover {
     background-color: var(--yellow--400);
 }
 
-.mostrar-menu {
+.show-menu {
     display: flex;
 }
 
-.esconder-menu {
+.hide-menu {
     display: none;   
 }
 
@@ -40,7 +40,7 @@ h4 {
     border-radius: 0 0 0 1.6rem;
 }
 
-.menu__cabecalho{
+.menu__header{
     width: 17.2rem;
     height: 4rem;
     display: inline-flex;
@@ -65,10 +65,4 @@ h4 {
 
 .link-menu-hambuger:hover {
     color: var(--yellow--400);
-}
-
-@media (min-width: 428px) {
-    .menu-hamburguer{
-        display: none;
-    }
 }

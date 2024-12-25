@@ -14,10 +14,10 @@ const Menu = () => {
     );
 
     return (
-        <nav className="navegacao ">
+        <nav className="navegation ">
             <Link to="/" className="link-menu body-1">
                 <img
-                    className="logo-marca"
+                    className="navegation__logo-marca"
                     src={logoMarca}
                     alt="Logo Marca escrito Wagner Felipe"
                 />
