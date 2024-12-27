@@ -9,9 +9,7 @@ import { useState } from 'react';
 const Menu = () => {
     const [tamanhoTela, setTamnhoTela] = useState(window.innerWidth);
 
-    window.addEventListener('resize', () =>
-        setTamnhoTela(window.innerWidth)
-    );
+    window.addEventListener('resize', () => setTamnhoTela(window.innerWidth));
 
     return (
         <nav className="navegation ">
@@ -22,7 +20,15 @@ const Menu = () => {
                     alt="Logo Marca escrito Wagner Felipe"
                 />
             </Link>
-            {tamanhoTela < 1024 ? <MenuHamburguer /> : <NavegacaoLinks />}
+            {tamanhoTela < 1024 ? (
+                <MenuHamburguer />
+            ) : (
+                <div className="navegation__links">
+                    <NavegacaoLinks to="/">Início</NavegacaoLinks>
+                    <NavegacaoLinks to="/sobre">Sobre</NavegacaoLinks>
+                    <NavegacaoLinks to="/projetos">Projetos</NavegacaoLinks>
+                </div>
+            )}
         </nav>
     );
 };

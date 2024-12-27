@@ -1,20 +1,21 @@
 import './NavegacaoLinks.css';
 import 'styles/standard.css';
-import { Link } from 'react-router';
+import { Link, useLocation } from 'react-router';
 
-const NavegacaoLinks = () => {
+const NavegacaoLinks = ({ children, to }) => {
+    
+    const location = useLocation(); 
+
     return (
-        <div className="links-navegation">
-            <Link className="link-navegation body-1" to="/">
-                Início
-            </Link>
-            <Link className="link-navegation body-1" to="/sobre">
-                Sobre
-            </Link>
-            <Link className="link-navegation body-1" to="/projetos">
-                Projetos
-            </Link>
-        </div>
+        <Link
+            className={`${
+                location.pathname === to ? 'link-navegation--active' : ''
+            } 
+            link-navegation body-1`}
+            to={to}
+        >
+            {children}
+        </Link>
     );
 };
 export default NavegacaoLinks;

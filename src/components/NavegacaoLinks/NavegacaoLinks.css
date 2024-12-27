@@ -1,9 +1,3 @@
-.links-navegation{
-    display: flex;
-    align-items: center;
-    gap: 2.4rem;
-}
-
 .link-navegation {
     display: inline-flex;
     text-decoration: none;
@@ -14,17 +8,6 @@
     color: var(--yellow--400);
 }
 
-@media (min-width: 1024px) {
-
-    .navegation{
-        padding: 2.4rem 6.4rem;
-    }
-
-}
-
-@media (min-width: 1400px) {
-    .navegation{
-        padding: 2.4rem 10.4rem;
-    }
-
+.link-navegation--active{
+    color: var(--violet--700);
 }

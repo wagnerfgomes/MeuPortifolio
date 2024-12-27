@@ -56,13 +56,6 @@ h4 {
     border: .1rem solid var(--violet--950);
 }
 
-.link-menu-hambuger {
-    display: inline-flex;
-    text-decoration: none;
-    color: var(--yellow--50);
-    padding: 1.6rem 1.6rem;
-}
-
-.link-menu-hambuger:hover {
-    color: var(--yellow--400);
+.links-menu-hambuger a {
+    padding: 1rem 1.6rem;
 }
