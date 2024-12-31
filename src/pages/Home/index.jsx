@@ -8,9 +8,9 @@ import logoLine from 'assets/Logo/logo-line.svg';
 
 const Home = () => {
     
-    const redesAtributosIcone = { size: 24, color: '#0A0E10' };
+    const networksIconAttributes = { size: 24, color: '#0A0E10' };
 
-    const tecnologiaAtributosIcone = {
+    const technologyAttributesIcon = {
         size: 16,
         color: '#9F06FF',
     };
@@ -23,26 +23,26 @@ const Home = () => {
                 alt="Logo de Wagner Felipe"
             />
             <p className="Home__main__helloworld">Hello, World! eu sou</p>
-            <h1 className="Home__main__titulo">Wagner Felipe</h1>
-            <p className="Home__main__texto">
+            <h1 className="Home__main__title">Wagner Felipe</h1>
+            <p className="Home__main__text">
                 Sou <strong>desenvolvedor front-end </strong> em início de
                 carreira, apaixonado por design e código.
             </p>
-            <ul className="Home__main__tecnologias">
+            <ul className="Home__main__technology">
                 <Tecnologias
-                    icone={<DiJsBadge {...tecnologiaAtributosIcone} />}
+                    icone={<DiJsBadge {...technologyAttributesIcon} />}
                 >
                     JavaScript
                 </Tecnologias>
-                <Tecnologias icone={<DiReact {...tecnologiaAtributosIcone} />}>
+                <Tecnologias icone={<DiReact {...technologyAttributesIcon} />}>
                     React
                 </Tecnologias>
             </ul>
             <ul className="Home__main__social">
-                <li className="Home__main__social__item">
+                <li className="Home__main__social__iten">
                     <RedesSocias
                         url={'https://github.com/wagnerfgomes'}
-                        icone={<FaGithub {...redesAtributosIcone} />}
+                        icon={<FaGithub {...networksIconAttributes} />}
                         />
                 </li>
                 <li className="Home__main__social__item">
@@ -50,7 +50,7 @@ const Home = () => {
                         url={
                             'https://www.linkedin.com/in/wagnerfelipegomesferreiradev'
                         }
-                        icone={<FaLinkedin {...redesAtributosIcone} />}
+                        icon={<FaLinkedin {...networksIconAttributes} />}
                     />
                 </li>
             </ul>

@@ -1,11 +1,11 @@
 import './Tecnologias.css'
 import 'styles/standard.css'
 
-const Tecnologias = ({icone, children}) =>{
+const Tecnologias = ({icon, children}) =>{
     return(
         <li className='technology'>
-            {icone}
-            <p className="technology__texto">{children}</p>
+            {icon}
+            <p className="technology__text">{children}</p>
         </li>
     )
 }

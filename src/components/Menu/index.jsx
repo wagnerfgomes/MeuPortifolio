@@ -1,26 +1,26 @@
 import './Menu.css';
 import 'styles/standard.css';
-import logoMarca from 'assets/Logo/logo-marca.svg';
+import logo from 'assets/Logo/logo-marca.svg';
 import NavegacaoLinks from 'components/NavegacaoLinks';
 import { Link } from 'react-router';
 import MenuHamburguer from 'components/MenuHamburguer';
 import { useState } from 'react';
 
 const Menu = () => {
-    const [tamanhoTela, setTamnhoTela] = useState(window.innerWidth);
+    const [screenSize, setScreenSize] = useState(window.innerWidth);
 
-    window.addEventListener('resize', () => setTamnhoTela(window.innerWidth));
+    window.addEventListener('resize', () => setScreenSize(window.innerWidth));
 
     return (
         <nav className="navegation ">
             <Link to="/" className="link-menu body-1">
                 <img
-                    className="navegation__logo-marca"
-                    src={logoMarca}
+                    className="navegation__logo"
+                    src={logo}
                     alt="Logo Marca escrito Wagner Felipe"
                 />
             </Link>
-            {tamanhoTela < 1024 ? (
+            {screenSize < 1024 ? (
                 <MenuHamburguer />
             ) : (
                 <div className="navegation__links">

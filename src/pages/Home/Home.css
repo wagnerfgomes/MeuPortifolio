@@ -21,21 +21,21 @@
     color: var(--yellow--50);
 }
 
-.Home__main__titulo {
+.Home__main__title{
     color: var(--violet--700);
 }
 
-.Home__main__texto {
+.Home__main__text {
     color: var(--yellow--50);
     width: 80%;
 }
 
-.Home__main__texto strong {
+.Home__main__text strong {
     color: var(--violet--700);
     font-style: italic;
 }
 
-.Home__main__tecnologias {
+.Home__main__technology {
     display: flex;
     gap: .8rem;
     align-items: center;
