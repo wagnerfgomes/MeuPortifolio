@@ -15,7 +15,7 @@
     height: 10rem;
 }
 
-.Home__main__heloworld {
+.Home__main__helloworld {
     font-family: 'Pixelify Sans', sans-serif;
     font-size: 2.2rem;
     color: var(--yellow--50);
@@ -52,4 +52,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .Home__main {
+        padding: 12rem 6.4rem;
+        gap: 1.6rem;
+    }
+
+    .Home__main__logo {
+        height: 39rem;
+        right: 4.2rem;
+        top: 12rem;
+    }
+
+    .Home__main__helloworld{
+        font-size: 3.2rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .Home__main {
+        padding: 15rem 10.4rem;
+        gap: 1.6rem;
+    }
+
+    .Home__main__logo {
+        height: 36rem;
+        right: 8rem;
+        top: 16rem;
+    }
+    .Home__main__helloworld{
+        font-size: 3.8rem;
+    }
+}
+
+@media (min-width: 1700px) {
+    
+    .Home__main__logo {
+        height: 45rem;
+        right: 8rem;
+        top: 14.5rem;
+    }
+
 }

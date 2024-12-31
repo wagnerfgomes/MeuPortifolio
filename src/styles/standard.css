@@ -114,6 +114,18 @@ h6,
     font-family: var(--font-title);
     font-style: normal;
     text-transform: uppercase;
+}
+
+h2,
+.title-2,
+h3,
+.title-3,
+h4,
+.title-4,
+h5,
+.title-5,
+h6,
+.title-6 {
     max-width: 76.8rem;
 }
 

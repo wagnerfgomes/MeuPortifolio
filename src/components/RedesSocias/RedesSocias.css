@@ -1,6 +1,6 @@
 .social-media{
     display: flex;
-    padding: .4rem;
+    padding: .5rem;
     background-color: var(--violet--700);
 }
 .social-media:hover{
