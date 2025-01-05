@@ -1,0 +1,8 @@
+.contact__subtitle{
+    color: var(--yellow--50);
+}
+
+.contact__container{
+    display: flex;
+    gap: 1.6rem;
+}
