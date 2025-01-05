@@ -1,0 +1,50 @@
+.cardProjects {
+    width: 100%;
+    display: flex;
+    padding: 2.4rem;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    border: 1px solid var(--violet--900);
+}
+
+.cardProjects__content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+
+.cardProjects__img {
+    width: 100%;
+}
+
+.cardProjects__hightlight {
+    color: var(--violet--900);
+    padding: 1.6rem 0 .4rem;
+}
+
+.cardProjects__name, .cardProjects__description{
+    color: var(--yellow--50);
+}
+
+.cardProjects__list-technology{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+    list-style: none;
+    padding: .4rem 0;
+    color: var(--violet--900);
+}
+
+.cardProjects__links{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.cardProjects__buttons{
+    display: flex;
+    gap: 1.6rem;
+}

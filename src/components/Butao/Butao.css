@@ -1,18 +1,14 @@
 .button {
+    width: 100%;
     cursor: pointer;
     background-color: var(--violet--700);
     color: var(--woodsmoke--950);
-    display: inline-flex;
+    display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     padding: 0.6rem 1.6rem;
     gap: 0.4rem;
     font-weight: 700;
-}
-
-.button:hover {
-    background-color: var(--yellow--400);
-    color: var(--woodsmoke--950);
 }
 
 .link-button {

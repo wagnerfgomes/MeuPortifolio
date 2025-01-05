@@ -1,5 +1,6 @@
 import './NavegacaoLinks.css';
 import 'styles/standard.css';
+import 'styles/hover.css';
 import { Link, useLocation } from 'react-router';
 
 const NavegacaoLinks = ({ children, to }) => {
@@ -11,7 +12,7 @@ const NavegacaoLinks = ({ children, to }) => {
             className={`${
                 location.pathname === to ? 'link-navegation--active' : ''
             } 
-            link-navegation body-1`}
+            link-navegation body-1 underline-center`}
             to={to}
         >
             {children}

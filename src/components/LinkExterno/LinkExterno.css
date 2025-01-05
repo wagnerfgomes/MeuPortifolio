@@ -1,0 +1,25 @@
+.link-externo {
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    color: var(--violet--700);
+    padding: 1rem 1.4rem;
+    transition: transform 0.1s, color 0.1s;
+    -webkit-transition: transform 0.1s, color 0.1s;
+
+}
+
+.link-externo:hover{
+    color: var(--yellow--400);
+}
+
+
+.link-externo__icon {
+    height: 1.6rem;
+    width: 1.6rem;
+    fill: var(--violet--800);
+}
+.link-externo:hover  .link-externo__icon{
+    fill: var(--yellow--400);
+}

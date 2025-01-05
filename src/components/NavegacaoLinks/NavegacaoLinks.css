@@ -2,6 +2,7 @@
     display: inline-flex;
     text-decoration: none;
     color: var(--yellow--50);
+    padding: .3rem 1rem;
 }
 
 .link-navegation:hover{
@@ -10,4 +11,5 @@
 
 .link-navegation--active{
     color: var(--violet--700);
+    pointer-events: none;
 }

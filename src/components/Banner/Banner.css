@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.Banner {
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem 1.6rem;
+    gap: 1.6rem;
+}
+
+.Banner__logo {
+    z-index: -1;
+    position: absolute;
+    right: 1rem;
+    top: 15.4rem;
+    height: 10rem;
+}
+
+.Banner__helloworld {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 2.2rem;
+    color: var(--yellow--50);
+}
+
+.Banner__title{
+    color: var(--violet--700);
+}
+
+.Banner__text {
+    color: var(--yellow--50);
+    width: 80%;
+}
+
+.Banner__text strong {
+    color: var(--violet--700);
+    font-style: italic;
+}
+
+.Banner__technology {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    padding: .4rem;
+}
+
+.Banner__social {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.Banner__social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .Banner {
+        padding: 12rem 6.4rem;
+        gap: 1.6rem;
+    }
+
+    .Banner__logo {
+        height: 39rem;
+        right: 4.2rem;
+        top: 12rem;
+    }
+
+    .Banner__helloworld{
+        font-size: 3.2rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .Banner {
+        padding: 15rem 10.4rem;
+        gap: 1.6rem;
+    }
+
+    .Banner__logo {
+        height: 36rem;
+        right: 8rem;
+        top: 16rem;
+    }
+    .Banner__helloworld{
+        font-size: 3.8rem;
+    }
+}
+
+@media (min-width: 1700px) {
+    
+    .Banner__logo {
+        height: 45rem;
+        right: 8rem;
+        top: 14.5rem;
+    }
+
+}

@@ -192,13 +192,6 @@ button,
     font-weight: 400;
     letter-spacing: 0.001em;
 }
-.body-1-bold {
-    font-family: var(--font-body);
-    font-size: 1.4rem;
-    line-height: 2.0rem;
-    font-weight: 700;
-    letter-spacing: 0.001em;
-}
 
 label,
 figcaption,
