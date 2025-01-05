@@ -62,3 +62,9 @@ h4 {
     width: min-content;
     padding: 1rem 1.6rem;
 }
+
+.button-menu__icon{
+    fill: var(--woodsmoke--950);
+    width: 2.4rem;
+    height: 2.4rem;
+}

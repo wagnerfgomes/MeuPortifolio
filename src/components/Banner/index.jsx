@@ -7,12 +7,7 @@ import RedesSocias from 'components/RedesSocias';
 import logoLine from 'assets/Logo/logo-line.svg';
 
 const Banner = () => {
-    const networksIconAttributes = { size: 24, color: '#0A0E10' };
-
-    const technologyAttributesIcon = {
-        size: 16,
-        color: '#9F06FF',
-    };
+    
     return (
         <section className="Banner">
             <img
@@ -27,10 +22,10 @@ const Banner = () => {
                 carreira, apaixonado por design e código.
             </p>
             <ul className="Banner__technology">
-                <Tecnologias icon={<DiJsBadge {...technologyAttributesIcon} />}>
+                <Tecnologias icon={<DiJsBadge className='Banner__technology__icon' />}>
                     JavaScript
                 </Tecnologias>
-                <Tecnologias icon={<DiReact {...technologyAttributesIcon} />}>
+                <Tecnologias icon={<DiReact className='Banner__technology__icon' />}>
                     React
                 </Tecnologias>
             </ul>
@@ -38,7 +33,7 @@ const Banner = () => {
                 <li className="Banner__social__item">
                     <RedesSocias
                         url={'https://github.com/wagnerfgomes'}
-                        icon={<FaGithub {...networksIconAttributes} />}
+                        icon={<FaGithub className='Banner__social__item__icon' />}
                     />
                 </li>
                 <li className="Banner__social__item">
@@ -46,7 +41,7 @@ const Banner = () => {
                         url={
                             'https://www.linkedin.com/in/wagnerfelipegomesferreiradev'
                         }
-                        icon={<FaLinkedin {...networksIconAttributes} />}
+                        icon={<FaLinkedin className='Banner__social__item__icon' />}
                     />
                 </li>
             </ul>

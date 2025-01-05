@@ -15,7 +15,6 @@ const CardPorjetos = ({
     deployLink,
     codeLink,
 }) => {
-    const iconAtributes = { size: 20, color: '#000F08' };
 
     return (
         <li className="cardProjects">
@@ -38,13 +37,13 @@ const CardPorjetos = ({
                 <div className="cardProjects__links">
                     <div className="cardProjects__buttons">
                         <Butao
-                            icon={<MdOutlineVisibility {...iconAtributes} />}
+                            icon={<MdOutlineVisibility className='cardProjects__buttons__icon' />}
                             to={deployLink}
                         >
                             Deploy
                         </Butao>
                         <Butao
-                            icon={<FaGithub {...iconAtributes} />}
+                            icon={<FaGithub className='cardProjects__buttons__icon' />}
                             to={codeLink}
                         >
                             Código

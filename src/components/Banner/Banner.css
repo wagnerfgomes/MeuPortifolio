@@ -54,6 +54,18 @@
     align-items: center;
 }
 
+.Banner__technology__icon{
+    fill: var(--violet--700);
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.Banner__social__item__icon{
+    fill: var(--woodsmoke--950);
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
 @media (min-width: 1024px) {
     .Banner {
         padding: 12rem 6.4rem;

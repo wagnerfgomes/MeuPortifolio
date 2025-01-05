@@ -28,16 +28,16 @@ const Home = () => {
                         technologys={['HTML', 'CSS', 'JavaScript', 'React']}
                     />
                 </ul>
-                <Butao inverted icon={<MdOpenInNew />} to={'/projetos'}>
+                <Butao inverted icon={<MdOpenInNew className='Home__button__icon'/>} to={'/projetos'}>
                     Ver outros projetos
                 </Butao>
             </Secao>
             <Secao title={'Que tal construirmos algo juntos?'}>
                 <h6 className='contact__subtitle' >Entre em contato</h6>
                 <div className="contact__container">
-                    <Butao icon={<SiGmail />} to={'mailto:wagnerfelipegf@gmail.com'}>Gmail</Butao>
-                    <Butao icon={<SiLinkedin />} to={'/'} >Linkedin</Butao>
-                    <Butao  icon={<SiInstagram />} to={'/'}>Instagram</Butao>
+                    <Butao icon={<SiGmail className='Home__button__icon'/>} to={'mailto:wagnerfelipegf@gmail.com'}>Gmail</Butao>
+                    <Butao icon={<SiLinkedin className='Home__button__icon'/>} to={'/'} >Linkedin</Butao>
+                    <Butao  icon={<SiInstagram className='Home__button__icon'/>} to={'/'}>Instagram</Butao>
                 </div>
             </Secao>
         </main>

@@ -6,11 +6,7 @@ import { useState } from 'react';
 import NavegacaoLinks from 'components/NavegacaoLinks';
 
 const MenuHamburguer = () => {
-    const attributesIcons = {
-        size: 24,
-        color: '#1C1B1F',
-    };
-
+    
     const [modifyMenu, setModifyMenu] = useState(false);
 
     return (
@@ -22,9 +18,9 @@ const MenuHamburguer = () => {
                 }}
             >
                 {modifyMenu ? (
-                    <MdClose {...attributesIcons} />
+                    <MdClose className='button-menu__icon' />
                 ) : (
-                    <MdMenu {...attributesIcons} />
+                    <MdMenu className='button-menu__icon'/>
                 )}
             </button>
             <div className={`${modifyMenu ? 'show-menu' : 'hide-menu'} menu`}>

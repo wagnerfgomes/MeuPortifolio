@@ -1,7 +1,6 @@
 .technology{
     display: flex;
     gap: .8rem;
-    align-items: center;
     padding: .4rem;
     list-style: none;
 }
