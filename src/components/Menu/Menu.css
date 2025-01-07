@@ -62,3 +62,16 @@
         gap: 2.4rem;
     }
 }
+@media (min-width: 1700px) {
+    .navegation {
+        padding: 2.4rem 12rem;
+    }
+
+    .navegation__logo {
+        height: 4.8rem;
+    }
+
+    .navegation__links {
+        gap: 2.4rem;
+    }
+}

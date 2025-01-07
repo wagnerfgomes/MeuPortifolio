@@ -15,7 +15,6 @@ const CardPorjetos = ({
     deployLink,
     codeLink,
 }) => {
-
     return (
         <li className="cardProjects">
             <img
@@ -23,8 +22,10 @@ const CardPorjetos = ({
                 src={imgUrl}
                 alt={imgAlt}
             />
-            <p className="cardProjects__hightlight bold">Projeto em destaque</p>
             <div className="cardProjects__content">
+                <p className="cardProjects__hightlight bold">
+                    Projeto em destaque
+                </p>
                 <h6 className="cardProjects__name">{nameProject}</h6>
                 <p className="cardProjects__description">{description}</p>
                 <ul className="cardProjects__list-technology">
@@ -37,13 +38,17 @@ const CardPorjetos = ({
                 <div className="cardProjects__links">
                     <div className="cardProjects__buttons">
                         <Butao
-                            icon={<MdOutlineVisibility className='cardProjects__buttons__icon' />}
+                            icon={
+                                <MdOutlineVisibility className="cardProjects__buttons__icon icon-button" />
+                            }
                             to={deployLink}
                         >
                             Deploy
                         </Butao>
                         <Butao
-                            icon={<FaGithub className='cardProjects__buttons__icon' />}
+                            icon={
+                                <FaGithub className="cardProjects__buttons__icon icon-button" />
+                            }
                             to={codeLink}
                         >
                             Código

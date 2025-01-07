@@ -9,6 +9,16 @@
 
 .Home__button__icon{
     fill: var(--woodsmoke--950);
-    width: 2rem;
-    height: 2rem;
+}
+
+.projects__list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+@media (min-width: 1024px) {
+    .projects__list{
+        gap: 2.4rem;
+    }
 }

@@ -212,6 +212,11 @@ input,
     letter-spacing: 0.119em;
 }
 
+.icon-button {
+    width: 2rem;
+    height: 2rem;
+}
+
 @media (min-width: 1024px) {
     body {
         font-size: 1.6rem;
@@ -273,7 +278,7 @@ input,
         line-height: 1.6rem;
     }
 
-
+  
 }
 
 
@@ -337,6 +342,10 @@ input,
         font-size: 1.0rem;
         line-height: 1.6rem;
     }
-
+    
+    .icon-button {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
 
 }

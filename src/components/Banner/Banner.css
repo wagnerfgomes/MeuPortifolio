@@ -21,7 +21,7 @@
     color: var(--yellow--50);
 }
 
-.Banner__title{
+.Banner__title {
     color: var(--violet--700);
 }
 
@@ -54,53 +54,70 @@
     align-items: center;
 }
 
-.Banner__technology__icon{
+.Banner__technology__icon {
     fill: var(--violet--700);
     width: 1.6rem;
     height: 1.6rem;
 }
 
-.Banner__social__item__icon{
+.Banner__social__item__icon {
     fill: var(--woodsmoke--950);
     width: 2.4rem;
     height: 2.4rem;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
     .Banner {
-        padding: 12rem 6.4rem;
+        padding: 6.4rem 1.6rem;
         gap: 1.6rem;
     }
 
     .Banner__logo {
-        height: 39rem;
+        height: 18rem;
+        top: 15rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Banner {
+        padding: 9rem 6.4rem;
+        gap: 1.6rem;
+    }
+
+    .Banner__logo {
+        height: 30rem;
         right: 4.2rem;
         top: 12rem;
     }
 
-    .Banner__helloworld{
+    .Banner__helloworld {
         font-size: 3.2rem;
     }
 }
 
+
 @media (min-width: 1400px) {
     .Banner {
-        padding: 15rem 10.4rem;
+        padding: 20rem 10.4rem 9rem;
         gap: 1.6rem;
     }
 
     .Banner__logo {
         height: 36rem;
-        right: 8rem;
-        top: 16rem;
+        right: 6rem;
+        top: 21rem;
     }
-    .Banner__helloworld{
+
+    .Banner__helloworld {
         font-size: 3.8rem;
     }
 }
 
 @media (min-width: 1700px) {
-    
+    .Banner {
+        padding: 20rem 12rem 9rem;
+    }
+
     .Banner__logo {
         height: 45rem;
         right: 8rem;
