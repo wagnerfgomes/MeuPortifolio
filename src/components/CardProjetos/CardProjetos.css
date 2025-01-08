@@ -17,7 +17,7 @@
 }
 
 .cardProjects__img {
-    width: 50%;
+    width: 100%;
 }
 
 .cardProjects__hightlight {
@@ -60,7 +60,7 @@
     .cardProjects {
         padding: 2.4rem 1.6rem;
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: center;
         gap: 2.4rem;
     }
 
@@ -70,10 +70,11 @@
         flex-direction: column;
         gap: 1.6rem;
     }
-
     .cardProjects__img {
-        width: 45%;
+        width: 50%;
+        object-fit: contain;
     }
+
 }
 
 @media (min-width: 1024px) {
@@ -90,5 +91,8 @@
     .cardProjects__content {
         width: 50%;
         flex-direction: column;
+    }
+    .cardProjects__img {
+        width: 44%;
     }
 }
