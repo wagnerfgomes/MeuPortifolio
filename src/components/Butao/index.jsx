@@ -7,7 +7,7 @@ import 'styles/hover.css';
 const Butao = ({ children, to, action, icon, inverted }) => {
     return (
         <button onClick={action} className="button grow">
-            <Link className="link-button bold" to={to}>
+            <Link target='_blank'  className="link-button bold" to={to}>
                 {inverted ? (
                     <>
                         {children}

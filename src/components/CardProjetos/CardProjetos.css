@@ -2,8 +2,8 @@
     width: 100%;
     max-height: fit-content;
     display: flex;
-    padding: 2.4rem;
     flex-direction: column;
+    padding: 1.6rem;
     border-radius: 0.8rem;
     border: 1px solid var(--violet--900);
 }

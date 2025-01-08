@@ -4,15 +4,16 @@ import { BrowserRouter, Route, Routes } from 'react-router';
 
 //apagar depois
 import './styles/mediaQuery.css';
+import Sobre from 'pages/Sobre';
 
-function AppRoutes() {
+function Router() {
 
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<PaginaPadrao />}>
                     <Route index element={<Home />} />
-                    <Route path="/sobre" element={<h1>Sobre</h1>} />
+                    <Route path="/sobre" element={<Sobre />} />
                     <Route path="/projetos" element={<h1>Projetos</h1>} />
                 </Route>
             </Routes>
@@ -20,4 +21,4 @@ function AppRoutes() {
     );
 }
 
-export default AppRoutes;
+export default Router;

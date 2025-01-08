@@ -9,11 +9,21 @@
     color: var(--violet--700);
 }
 
+.section__content--border {
+    padding: 1.6rem;
+    border-radius: 0.8rem;
+    border: 1px solid var(--violet--900);
+}
+
 
 @media (min-width: 1024px) {
     .section {
         padding: 9rem 6.4rem;
         gap: 1.6rem;
+    }
+    
+    .section__content--border {
+        padding: 2.4rem;
     }
 
 }
@@ -22,6 +32,9 @@
     .section {
         padding: 10rem 10.4rem;
         gap: 1.6rem;
+    }
+    .section__content--border {
+        padding: 3.2rem;
     }
 }
 
