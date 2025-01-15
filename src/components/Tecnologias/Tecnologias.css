@@ -1,5 +1,6 @@
 .technology{
     display: flex;
+    align-items: center;
     gap: .8rem;
     padding: .4rem;
     list-style: none;

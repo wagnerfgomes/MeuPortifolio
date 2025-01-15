@@ -30,7 +30,7 @@ const CardPorjetos = ({
                 <p className="cardProjects__description">{description}</p>
                 <ul className="cardProjects__list-technology">
                     {technologys.map((technology) => (
-                        <li className="cardProjects__technology body-2">
+                        <li key={technology} className="cardProjects__technology body-2">
                             {technology}
                         </li>
                     ))}

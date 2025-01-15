@@ -49,6 +49,7 @@ const Home = () => {
                         technologys={['HTML', 'CSS', 'JavaScript', 'React']}
                     />
                 </ul>
+                <br />
                 <Butao
                     inverted
                     icon={

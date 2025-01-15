@@ -36,7 +36,7 @@
     right: 51%;
     bottom: 0;
     background: var(--yellow--400);
-    height: 2px;
+    height: 1px;
     transition: left 0.2s ease-out, right 0.2s ease-out;
     -webkit-transition: left 0.2s ease-out, right 0.2s ease-out;
 }

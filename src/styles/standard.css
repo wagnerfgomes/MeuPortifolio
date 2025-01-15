@@ -22,6 +22,26 @@ html {
     text-decoration: none;
 }
 
+:root::-webkit-scrollbar {
+    width: 1.6rem;
+}
+
+:root::-webkit-scrollbar-track {
+    background: var(--violet--900);
+}
+
+:root::-webkit-scrollbar-thumb {
+    background-color: var(--woodsmoke--950);
+    border: .3rem solid var(--violet--900);
+    border-radius: 10rem;
+}
+
+:root {
+    scrollbar-color: var(--woodsmoke--950) var(--violet--900);
+    scrollbar-gutter: stable both-edges;
+}
+
+
 :root {
     font-size: 62.5%;
     --violet--50: #FBF3FF;
@@ -71,7 +91,8 @@ body {
     font-weight: 300;
 }
 
-.space-text-above{
+
+.space-text-above {
     margin-top: var(--paragraph-space);
 }
 
@@ -126,12 +147,12 @@ h5,
 .title-5,
 h6,
 .title-6 {
-    max-width: 76.8rem;
+    max-width: 100%;
 }
 
 p,
 .max-w-text {
-    max-width: 76.8rem;
+    max-width: 100%;
 }
 
 
@@ -278,7 +299,7 @@ input,
         line-height: 1.6rem;
     }
 
-  
+
 }
 
 
@@ -342,7 +363,7 @@ input,
         font-size: 1.0rem;
         line-height: 1.6rem;
     }
-    
+
     .icon-button {
         width: 2.4rem;
         height: 2.4rem;

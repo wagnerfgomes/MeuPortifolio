@@ -25,10 +25,80 @@
 
 .sobre__text__link {
     color: var(--violet--500);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
 }
 
 .sobre__text__link:hover {
     color: var(--yellow--400);
+}
+
+.training__type-text{
+    color: var(--violet--900);
+}
+
+.training__list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    list-style: none;
+    margin-bottom: 1.6rem;
+}
+
+.training__list__itens{
+    display: flex;
+    flex-direction: column;
+}
+
+.training__list__itens__title{
+    color: var(--yellow--50);
+}
+
+.training__list__itens__date{
+    color: var(--yellow--50);
+}
+
+.hard-skills , .soft-skills{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.6rem;
+}
+
+.hard-skills__title , .soft-skills__title{
+    color: var(--yellow--50);
+}
+
+.hard-skills__list , .soft-skills__list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.hard-skills__list__itens{
+    display: inline-flex;
+}
+
+.hard-skills__list__itens__text {
+    color: var(--yellow--50);
+    display: inline-flex;
+    align-items: center;
+}
+.soft-skills__list__itens__text{
+    color: var(--yellow--50);
+}
+
+.hard-skills__list__itens__text--bold , .soft-skills__list__itens__text--bold{
+    color: var(--violet--900);
+    display: inline-flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.hard-skills__list__itens__icon{
+    width: 2rem;
+    height: 2rem;
 }
 
 @media (min-width: 800px) {
@@ -60,6 +130,7 @@
     .sobre__text {
         grid-row: 1/3;
     }
+    
 }
 
 @media (min-width: 1024px) {
@@ -71,6 +142,24 @@
         grid-template-columns: 1.1fr .9fr;
         gap: 1rem 3.2rem;
     }
+    .training__list{
+        gap: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .hard-skills , .soft-skills{
+        margin-bottom: 2.4rem;
+    }
+    
+
+    .hard-skills__list , .soft-skills__list{
+        gap: 2.4rem;
+    }
+    
+    .hard-skills__list__itens__text--bold , .soft-skills__list__itens__text--bold{
+        gap: 1.6rem;
+    }
+
 }
 
 @media (min-width: 1400px) {
@@ -81,4 +170,13 @@
     .sobre-organization {
         gap: 1rem 3.2rem;
     }
+    .training__list{
+        gap: 3.2rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .hard-skills , .soft-skills{
+        margin-bottom: 3.2rem;
+    }
+
 }
