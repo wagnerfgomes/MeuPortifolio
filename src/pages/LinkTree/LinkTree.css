@@ -1,0 +1,62 @@
+.main-linktree {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linktree {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.linktree__img {
+    width: min(30rem, 70vw);
+    border: .2rem solid var(--violet--900);
+    border-radius: 100rem;
+}
+
+.linktree__social {
+    width: 100%;
+    background-color: var(--violet--700);
+    padding: 1rem 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.linktree__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+
+}
+
+.linktree-icon{
+    width: 2rem;
+    height: 2rem;
+    fill: var(--woodsmoke--950);
+}
+
+@media (min-width: 800px) {
+
+}
+@media (min-width: 1024px) {
+    .linktree-icon{
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+@media (min-width: 1400px) {
+
+}

@@ -4,11 +4,17 @@ import { Outlet } from 'react-router';
 
 const PaginaPadrao = () => {
     return (
-        <main>
-            <Menu />
-            <Outlet />
-            <Rodape />
-        </main>
+        <>
+            <header>
+                <Menu standard />
+            </header>
+            <main>
+                <Outlet />
+            </main>
+            <footer>
+                <Rodape />
+            </footer>
+        </>
     );
 };
 export default PaginaPadrao;

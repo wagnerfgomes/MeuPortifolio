@@ -4,9 +4,9 @@ import 'styles/standard.css';
 import 'styles/hover.css';
 
 
-const Butao = ({ children, to, action, icon, inverted }) => {
+const Butao = ({ children, to, action, icon, inverted, full}) => {
     return (
-        <button onClick={action} className="button grow">
+        <button style={full ? ({width: '100%'}) : ({width: 'fit-content'})} onClick={action} className="button grow">
             <Link target='_blank'  className="link-button bold" to={to}>
                 {inverted ? (
                     <>

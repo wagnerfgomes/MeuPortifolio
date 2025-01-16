@@ -1,12 +1,11 @@
 .button {
-    width: fit-content;
     cursor: pointer;
     background-color: var(--violet--700);
     color: var(--woodsmoke--950);
     display: flex;
     justify-content: center;
     align-items: end;
-    padding: 0.6rem 1.6rem;
+    padding: .8rem 1.6rem;
     gap: 0.4rem;
     font-weight: 700;
 }
@@ -23,7 +22,7 @@
 
 @media (min-width: 1024px) {
     .button{
-        padding: 0.8rem 1.6rem;
+        padding: 1rem 1.6rem;
         gap: 0.8rem;    
     }
     .link-button{
