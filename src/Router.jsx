@@ -1,6 +1,6 @@
 import Home from 'pages/Home';
 import PaginaPadrao from 'pages/PaginaPadrao';
-import { BrowserRouter, Link, Route, Routes } from 'react-router';
+import { BrowserRouter, Route, Routes } from 'react-router';
 import Sobre from 'pages/Sobre';
 import Linktree from 'pages/LinkTree';
 

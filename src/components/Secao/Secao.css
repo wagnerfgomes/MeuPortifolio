@@ -18,7 +18,7 @@
 
 @media (min-width: 1024px) {
     .section {
-        padding: 9rem 6.4rem;
+        padding: 3.2rem 6.4rem;
         gap: 1.6rem;
     }
     
@@ -30,7 +30,7 @@
 
 @media (min-width: 1400px) {
     .section {
-        padding: 10rem 10.4rem;
+        padding: 6.4rem 10.4rem;
         gap: 1.6rem;
     }
     .section__content--border {
@@ -40,6 +40,6 @@
 
 @media (min-width: 1700px) {
     .section {
-        padding: 10rem 12rem;
+        padding: 6.4rem 12rem;
     }
 }
